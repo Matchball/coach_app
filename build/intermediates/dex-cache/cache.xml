@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/Cheesetouched/.android/build-cache/4c6107cd388c15eca7e3ad5ed45a5b279c8c0919/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="82ce13fd19cdfde0e392f03c27edeba8d4333648">
+        <dex dex="/Users/Cheesetouched/Desktop/Internship/Matchball/Coach/coach_app/app/build/intermediates/pre-dexed/debug/classes_2d2b95bef2d1108004c667052415a44d591ccc4c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Cheesetouched/.android/build-cache/04305c48268d9a612e39b2dff68fe967543831fd/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="/Users/Cheesetouched/Desktop/Internship/Matchball/Coach/coach_app/app/build/intermediates/pre-dexed/debug/classes_0560cca94795476e30276f67be0da2080669e215.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Cheesetouched/.android/build-cache/1d27eefa93d3a9f480f1460fd7168624c48d5ff9/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="6f65c144283b31b4b9a70e6e7aa4c4a1c897d4b8">
+        <dex dex="/Users/Cheesetouched/Desktop/Internship/Matchball/Coach/coach_app/app/build/intermediates/pre-dexed/debug/classes_100fd30489167d541ece8a1cba53e7afe82f6f68.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Cheesetouched/.android/build-cache/a1ef674b0799c006ab455244fa6e1cdecd818b4f/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="1941832901fc4e7a93300b53762e9f65d7650b99">
+        <dex dex="/Users/Cheesetouched/Desktop/Internship/Matchball/Coach/coach_app/app/build/intermediates/pre-dexed/debug/classes_6ab219cba1c3fc56fe0133b8f414a11b9031cf4f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Cheesetouched/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/26.0.0-alpha1/support-annotations-26.0.0-alpha1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="023ee503b631f69511e335a061ea008f8da60f40">
+        <dex dex="/Users/Cheesetouched/Desktop/Internship/Matchball/Coach/coach_app/app/build/intermediates/pre-dexed/debug/support-annotations-26.0.0-alpha1_fe824b4340cb8aac91bf4086f5086a2da0583db1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Cheesetouched/.android/build-cache/a020f4516b52f74619f2ee88497ff3a1acae580c/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="fcd01fd11233459f546c437ec927e9b61bf7caf1">
+        <dex dex="/Users/Cheesetouched/Desktop/Internship/Matchball/Coach/coach_app/app/build/intermediates/pre-dexed/debug/classes_6fd4b19a9cd6275dcee4dc29acefda2ff12aa8d1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Cheesetouched/.android/build-cache/cc9195662d9a5d02fa4b3619667c653cc6257bc6/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="9935891f23923f39d002087085d9696568a9f657">
+        <dex dex="/Users/Cheesetouched/Desktop/Internship/Matchball/Coach/coach_app/app/build/intermediates/pre-dexed/debug/classes_49abe90430e8a32b7c102201421910e3260b1671.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Cheesetouched/.android/build-cache/e8ed38fdb21b3db6930eb7db3953473fc2cb37c0/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="18d31838aa4fcc768a8a0516e22cc13b94655d89">
+        <dex dex="/Users/Cheesetouched/Desktop/Internship/Matchball/Coach/coach_app/app/build/intermediates/pre-dexed/debug/classes_3d303548594b93b80ad81d780e9b1b100d622c95.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Cheesetouched/.android/build-cache/27826fd5b15bc0ba93b00f2b25c5f4bec4baa4fa/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="47471eb19df288158b00b8d9cfa41bce7373f5cc">
+        <dex dex="/Users/Cheesetouched/Desktop/Internship/Matchball/Coach/coach_app/app/build/intermediates/pre-dexed/debug/classes_e7786624d1f62fe1980a77f6bdfd8cd5152abc01.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Cheesetouched/.android/build-cache/0e5323ad9462f7a4631b6c99586f1dfa059fc812/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="a2af9c72ccaa4c5c049b500ca6ea664a4ce1f7d4">
+        <dex dex="/Users/Cheesetouched/Desktop/Internship/Matchball/Coach/coach_app/app/build/intermediates/pre-dexed/debug/classes_cf06214a48e5ffe630257d5e29e87f5d3aeb6293.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Cheesetouched/.android/build-cache/f06ff494583ba54474e2779fd49842dea82f6d0f/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="8df0e365e40beb151bc42dee20817721a6cab7b0">
+        <dex dex="/Users/Cheesetouched/Desktop/Internship/Matchball/Coach/coach_app/app/build/intermediates/pre-dexed/debug/classes_eeae375801523022bfddbb3341037d3935121962.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Cheesetouched/.android/build-cache/522351fbbb3e8c16143e9157f4523f3386d38dfd/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="42df48c7305b08b14fa0e84561091b0c24d70d26">
+        <dex dex="/Users/Cheesetouched/Desktop/Internship/Matchball/Coach/coach_app/app/build/intermediates/pre-dexed/debug/classes_e9d4a72b9b9017eeec645a0eb3cacab11d39c558.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Cheesetouched/.android/build-cache/2ef3872b768fdf86a5768c88ed1c15356ed14569/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="2e92aa0163544a804a0b34f169ca61801770839a">
+        <dex dex="/Users/Cheesetouched/Desktop/Internship/Matchball/Coach/coach_app/app/build/intermediates/pre-dexed/debug/classes_700f6bf992e54624332b727a872777a5f7725fae.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Cheesetouched/.android/build-cache/3bd427b6331eb9c12d5c985961360e9b7830be6c/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="cc178928721f3222b3b06bdfbd9497378ccb9792">
+        <dex dex="/Users/Cheesetouched/Desktop/Internship/Matchball/Coach/coach_app/app/build/intermediates/pre-dexed/debug/classes_5859cd13b28c50493cbce6d0129822312fd45f12.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Cheesetouched/.android/build-cache/74311ef98a39f0d7644bf5d9467dd2f890058096/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="88246166d5afb106f532f6e6deae683c66b42c89">
+        <dex dex="/Users/Cheesetouched/Desktop/Internship/Matchball/Coach/coach_app/app/build/intermediates/pre-dexed/debug/classes_d6efe96c01b80d6ec038e428ca6d4b49ab4f3b52.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Cheesetouched/.android/build-cache/c095e525d223eb539322cec32efd02e4654a4d76/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="4ef8ab5fee042023018249474bc93bd4b2b9c17e">
+        <dex dex="/Users/Cheesetouched/Desktop/Internship/Matchball/Coach/coach_app/app/build/intermediates/pre-dexed/debug/classes_903f82e0c8c30d73c648972c7daea26717b664a5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Cheesetouched/.android/build-cache/32e3ce7aea944e2b926ce89ffba1d0d20ccb3931/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/Cheesetouched/Desktop/Internship/Matchball/Coach/coach_app/app/build/intermediates/pre-dexed/debug/classes_62689c1551c383ff9f5246e9ff4effcd44ac43be.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Cheesetouched/.android/build-cache/9b7babe026f89a399d462a3b46cb4daa70ca1fd9/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="ea4b54dcbfe5ac05efb0a314105f07258118d3a7">
+        <dex dex="/Users/Cheesetouched/Desktop/Internship/Matchball/Coach/coach_app/app/build/intermediates/pre-dexed/debug/classes_d6a004cc28db867625b7727ca7023a8df98718e2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Cheesetouched/Library/Android/sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.2/constraint-layout-solver-1.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="/Users/Cheesetouched/Desktop/Internship/Matchball/Coach/coach_app/app/build/intermediates/pre-dexed/debug/constraint-layout-solver-1.0.2_d77ee861f0ef572ee8c0568bbd38cffa52092c5e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Cheesetouched/.android/build-cache/db2d4538c2a884ea3583523073fe05d2849009aa/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="952944218ecedea1554a513dec0c14d570642843">
+        <dex dex="/Users/Cheesetouched/Desktop/Internship/Matchball/Coach/coach_app/app/build/intermediates/pre-dexed/debug/classes_ada0bec1d1184d24ed9d00ddcc6653a1a0e7275e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Cheesetouched/.android/build-cache/4a111d6ca094fb394f2a1ee5f3fd70cc592fccf3/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="0dc8ab07eeceda5e99b305c8069765056b6e5c9d">
+        <dex dex="/Users/Cheesetouched/Desktop/Internship/Matchball/Coach/coach_app/app/build/intermediates/pre-dexed/debug/classes_08529e5a2df0947ffe09621c41091cf454b970fb.jar" />
+    </item>
+
+</items>
