@@ -1,6 +1,7 @@
 package com.matchball.coach;
 
 import android.graphics.Color;
+import android.graphics.Typeface;
 import android.media.Image;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -9,9 +10,12 @@ import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.ListView;
+import android.widget.RadioButton;
+import android.widget.RadioGroup;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -31,11 +35,29 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     private TextView q1starttext;
 
+    private TextView ttime;
+
+    private TextView trepetitions;
+
+    private TextView tquality;
+
+    private EditText reps;
+
     private Button q1start;
+
+    private Button q1reps;
+
+    private Button q1qly;
+
+    private Button q1save;
 
     private String name;
 
     private String drill;
+
+    private String repetitions;
+
+    private int quality;
 
     private ListView pl1;
 
@@ -57,11 +79,19 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     private LinearLayout q1p4;
 
+    private LinearLayout q1p4data;
+
+    private LinearLayout q1p4reps;
+
+    private LinearLayout q1p4qly;
+
     private LinearLayout q1startpanel;
 
     private LinearLayout stopwatchpanel;
 
     private LinearLayout timerpanel;
+
+    private LinearLayout q1final;
 
     private List<String> players_list;
 
@@ -70,6 +100,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private ArrayAdapter<String> playeradapter;
 
     private ArrayAdapter<String> drilladapter;
+
+    private RadioGroup qlygroup;
+
+    private ErrorDialog error;
+
+    private Typeface usefont;
 
     String[] players = new String[]{
             "Amit Tandon",
@@ -97,6 +133,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        usefont = Typeface.createFromAsset(getAssets(), "fonts/sul.ttf");
+
         playername = (TextView) findViewById(R.id.playername);
 
         playername2 = (TextView) findViewById(R.id.playername2);
@@ -105,7 +143,21 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         q1starttext = (TextView) findViewById(R.id.q1starttext);
 
+        ttime = (TextView) findViewById(R.id.ttime);
+
+        trepetitions = (TextView) findViewById(R.id.trepetitions);
+
+        tquality = (TextView) findViewById(R.id.tquality);
+
+        reps = (EditText) findViewById(R.id.reps);
+
         q1start = (Button) findViewById(R.id.q1start);
+
+        q1reps = (Button) findViewById(R.id.q1reps);
+
+        q1qly = (Button) findViewById(R.id.q1qly);
+
+        q1save = (Button) findViewById(R.id.q1save);
 
         drillback = (ImageView) findViewById(R.id.drillback);
 
@@ -116,6 +168,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         q1p3 = (LinearLayout) findViewById(R.id.q1p3);
 
         q1p4 = (LinearLayout) findViewById(R.id.q1p4);
+
+        q1p4data = (LinearLayout) findViewById(R.id.q1p4data);
+
+        q1p4reps = (LinearLayout) findViewById(R.id.q1p4reps);
+
+        q1p4qly = (LinearLayout) findViewById(R.id.q1p4qly);
+
+        q1final = (LinearLayout) findViewById(R.id.q1final);
 
         q1startpanel = (LinearLayout) findViewById(R.id.q1startpanel);
 
@@ -137,6 +197,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         drills_list = new ArrayList<String>(Arrays.asList(drills));
 
+        qlygroup = (RadioGroup) findViewById(R.id.qlygroup);
+
         p1.setOnClickListener(this);
 
         q1p2back.setOnClickListener(this);
@@ -146,6 +208,20 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         q1start.setOnClickListener(this);
 
         q1stop.setOnClickListener(this);
+
+        q1reps.setOnClickListener(this);
+
+        q1reps.setOnClickListener(this);
+
+        q1qly.setOnClickListener(this);
+
+        q1save.setOnClickListener(this);
+
+        quality = 0;
+
+        error = new ErrorDialog();
+
+        getQuality();
 
     }
 
@@ -179,6 +255,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         getPlayer();
 
     }
+
 
     private void initializeDrillsAdapter() {
 
@@ -259,6 +336,24 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }
 
 
+    private void getQuality() {
+
+        qlygroup.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(RadioGroup radioGroup, int i) {
+
+                View radioButton = radioGroup.findViewById(i);
+
+                int index = radioGroup.indexOfChild(radioButton);
+
+                quality = index + 1;
+
+            }
+        });
+
+    }
+
+
     @Override
     public void onClick(View view) {
 
@@ -303,11 +398,66 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         else if (view == q1stop) {
 
+            q1p4data.setVisibility(View.GONE);
 
-            
+            q1p4reps.setVisibility(View.VISIBLE);
+
+        }
+
+        else if (view == q1reps) {
+
+            if (reps.getText().toString().isEmpty()) {
+
+                error.showDialog(this, "Please enter the repetitions.", usefont);
+
+            }
+
+            else {
+
+                repetitions = reps.getText().toString();
+
+                q1p4reps.setVisibility(View.GONE);
+
+                q1p4qly.setVisibility(View.VISIBLE);
+
+            }
+
+        }
+
+        else if (view == q1qly) {
+
+            if (quality == 0) {
+
+                error.showDialog(this, "Please select quality.", usefont);
+
+            }
+
+            else {
+
+                q1p4qly.setVisibility(View.GONE);
+
+                q1final.setVisibility(View.VISIBLE);
+
+                ttime.setText("02:33");
+
+                trepetitions.setText(repetitions);
+
+                tquality.setText(String.valueOf(quality));
+
+            }
+
+        }
+
+        else if (view == q1save) {
+
+            q1final.setVisibility(View.GONE);
+
+            q1p4.setVisibility(View.GONE);
+
+            q1p1.setVisibility(View.VISIBLE);
+
         }
 
     }
-
 
 }
